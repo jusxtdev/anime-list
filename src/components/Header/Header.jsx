@@ -2,7 +2,7 @@ import logo from "./logo.png";
 
 function Header() {
   return (
-    <div className="mx-auto mt-6 mb-10 flex w-[min(1450px,calc(100%-32px))] flex-row items-center justify-between gap-6 rounded-2xl border border-[#2E2A26] bg-[#1B1815] px-8 py-2 text-[#D4CEC6] shadow-[0_18px_60px_rgba(0,0,0,0.32)]">
+    <div className="relative z-30 mx-auto mt-6 mb-10 flex w-[min(1450px,calc(100%-32px))] flex-row items-center justify-between gap-6 rounded-2xl border border-[#2E2A26] bg-[#1B1815] px-8 py-2 text-[#D4CEC6] shadow-[0_18px_60px_rgba(0,0,0,0.32)]">
       <div id="logo" className="flex shrink-0 items-center">
         <img
           src={logo}
